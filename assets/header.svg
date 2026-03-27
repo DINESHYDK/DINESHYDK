@@ -22,7 +22,7 @@
       </feMerge>
     </filter>
     <filter id="textGlow" x="-5%" y="-30%" width="110%" height="160%">
-      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -41,8 +41,7 @@
   <rect x="3" y="3" width="894" height="334" rx="12"
         fill="none" stroke="#1e2a38" stroke-width="1.5"/>
 
-  <!-- CRAWLING BORDER — perimeter = 2*(894+334) = 2456px
-       Visible dash = 900px, Gap = 1556px -->
+  <!-- CRAWLING BORDER -->
   <rect x="3" y="3" width="894" height="334" rx="12"
         fill="none"
         stroke="url(#crawl)"
@@ -87,38 +86,25 @@
     <circle cx="897" cy="337" r="2.5"/>
   </g>
 
-  <!-- ASCII ART NAME — 16 lines, font-size 5.6, line-height 9px -->
-  <g font-family="'Courier New', Courier, monospace"
-     font-size="5.6"
-     fill="#5CE0D8"
-     text-anchor="middle"
-     xml:space="preserve"
-     filter="url(#textGlow)">
-    <text x="450" y="28"> DDDDDDDDDDDDD          iiii                                                       hhhhhhh                  YYYYYYY       YYYYYYYDDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK </text>
-    <text x="450" y="37"> D::::::::::::DDD      i::::i                                                      h:::::h                  Y:::::Y       Y:::::YD::::::::::::DDD    K:::::::K    K:::::K </text>
-    <text x="450" y="46"> D:::::::::::::::DD     iiii                                                       h:::::h                  Y:::::Y       Y:::::YD:::::::::::::::DD  K:::::::K    K:::::K </text>
-    <text x="450" y="55"> DDD:::::DDDDD:::::D                                                               h:::::h                  Y::::::Y     Y::::::YDDD:::::DDDDD:::::D K:::::::K   K::::::K </text>
-    <text x="450" y="64">   D:::::D    D:::::D iiiiiiinnnn  nnnnnnnn        eeeeeeeeeeee        ssssssssss   h::::h hhhhh            YYY:::::Y   Y:::::YYY  D:::::D    D:::::DKK::::::K  K:::::KKK </text>
-    <text x="450" y="73">   D:::::D     D:::::Di:::::in:::nn::::::::nn    ee::::::::::::ee    ss::::::::::s  h::::hh:::::hhh            Y:::::Y Y:::::Y     D:::::D     D:::::D K:::::K K:::::K    </text>
-    <text x="450" y="82">   D:::::D     D:::::D i::::in::::::::::::::nn  e::::::eeeee:::::eess:::::::::::::s h::::::::::::::hh           Y:::::Y:::::Y      D:::::D     D:::::D K::::::K:::::K     </text>
-    <text x="450" y="91">   D:::::D     D:::::D i::::inn:::::::::::::::ne::::::e     e:::::es::::::ssss:::::sh:::::::hhh::::::h           Y:::::::::Y       D:::::D     D:::::D K:::::::::::K      </text>
-    <text x="450" y="100">   D:::::D     D:::::D i::::i  n:::::nnnn:::::ne:::::::eeeee::::::e s:::::s  ssssss h::::::h   h::::::h           Y:::::::Y        D:::::D     D:::::D K:::::::::::K      </text>
-    <text x="450" y="109">   D:::::D     D:::::D i::::i  n::::n    n::::ne:::::::::::::::::e    s::::::s      h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K::::::K:::::K     </text>
-    <text x="450" y="118">   D:::::D     D:::::D i::::i  n::::n    n::::ne::::::eeeeeeeeeee        s::::::s   h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K:::::K K:::::K    </text>
-    <text x="450" y="127">   D:::::D    D:::::D  i::::i  n::::n    n::::ne:::::::e           ssssss   s:::::s h:::::h     h:::::h            Y:::::Y         D:::::D    D:::::DKK::::::K  K:::::KKK </text>
-    <text x="450" y="136"> DDD:::::DDDDD:::::D  i::::::i n::::n    n::::ne::::::::e          s:::::ssss::::::sh:::::h     h:::::h            Y:::::Y       DDD:::::DDDDD:::::D K:::::::K   K::::::K </text>
-    <text x="450" y="145"> D:::::::::::::::DD   i::::::i n::::n    n::::n e::::::::eeeeeeee  s::::::::::::::s h:::::h     h:::::h         YYYY:::::YYYY    D:::::::::::::::DD  K:::::::K    K:::::K </text>
-    <text x="450" y="154"> D::::::::::::DDD     i::::::i n::::n    n::::n  ee:::::::::::::e   s:::::::::::ss  h:::::h     h:::::h         Y:::::::::::Y    D::::::::::::DDD    K:::::::K    K:::::K </text>
-    <text x="450" y="163"> DDDDDDDDDDDDD        iiiiiiii nnnnnn    nnnnnn    eeeeeeeeeeeeee    sssssssssss    hhhhhhh     hhhhhhh         YYYYYYYYYYYYY    DDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK </text>
-  </g>
+  <!-- LARGE NAME: DINESH YDK -->
+  <text x="450" y="105"
+        font-family="'Courier New', Courier, monospace"
+        font-size="56"
+        font-weight="bold"
+        fill="#5CE0D8"
+        text-anchor="middle"
+        letter-spacing="12"
+        filter="url(#textGlow)">
+    DINESH YDK
+  </text>
 
   <!-- DIVIDER -->
-  <line x1="60" y1="178" x2="840" y2="178" stroke="#5CE0D8" stroke-width="0.6" opacity="0.2"/>
-  <line x1="60"  y1="178" x2="200" y2="178" stroke="#5CE0D8" stroke-width="1" opacity="0.5"/>
-  <line x1="700" y1="178" x2="840" y2="178" stroke="#5CE0D8" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="135" x2="840" y2="135" stroke="#5CE0D8" stroke-width="0.6" opacity="0.2"/>
+  <line x1="150" y1="135" x2="350" y2="135" stroke="#5CE0D8" stroke-width="1.2" opacity="0.5"/>
+  <line x1="550" y1="135" x2="750" y2="135" stroke="#5CE0D8" stroke-width="1.2" opacity="0.5"/>
 
   <!-- SUBTITLE -->
-  <text x="450" y="202"
+  <text x="450" y="170"
         font-family="'Courier New', Courier, monospace"
         font-size="12"
         fill="#8b949e"
@@ -128,7 +114,7 @@
   </text>
 
   <!-- STACK ROW -->
-  <text x="450" y="228"
+  <text x="450" y="200"
         font-family="'Courier New', Courier, monospace"
         font-size="10.5"
         fill="#5CE0D8"
@@ -139,19 +125,19 @@
   </text>
 
   <!-- HORIZONTAL RULE -->
-  <line x1="60" y1="250" x2="840" y2="250" stroke="#1e2a38" stroke-width="1"/>
+  <line x1="60" y1="225" x2="840" y2="225" stroke="#1e2a38" stroke-width="1"/>
 
   <!-- PULSING DOT -->
-  <circle cx="220" cy="278" r="5" fill="#5CE0D8" opacity="0.2">
+  <circle cx="220" cy="268" r="5" fill="#5CE0D8" opacity="0.2">
     <animate attributeName="r"       values="5;9;5"     dur="2.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.2;0;0.2" dur="2.2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="220" cy="278" r="4.5" fill="#5CE0D8">
+  <circle cx="220" cy="268" r="4.5" fill="#5CE0D8">
     <animate attributeName="opacity" values="1;0.5;1" dur="2.2s" repeatCount="indefinite"/>
   </circle>
 
   <!-- STATUS TEXT -->
-  <text x="236" y="283"
+  <text x="236" y="273"
         font-family="'Courier New', Courier, monospace"
         font-size="11.5"
         fill="#c9d1d9"
@@ -160,7 +146,7 @@
   </text>
 
   <!-- AVAILABLE TAG -->
-  <text x="820" y="283"
+  <text x="820" y="273"
         font-family="'Courier New', Courier, monospace"
         font-size="10"
         fill="#5CE0D8"
