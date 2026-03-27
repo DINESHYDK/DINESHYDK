@@ -3,7 +3,9 @@
 <!-- ══════════════════════════════════════════════════════════════════════════════ -->
 
 <!-- HEADER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,30:0d1921,60:102a2d,100:5CE0D8&height=180&section=header&text=&fontSize=1" width="100%" />
 
+<br/>
 
 <!-- ════════ ANIMATED BORDER HEADER BANNER ════════ -->
 <div align="center">
@@ -66,12 +68,12 @@
   <img src="https://img.shields.io/badge/MongoDB-0a0e17?style=flat-square&logo=mongodb&logoColor=5CE0D8"/>
 </p>
 
-```text
-🎯 Kociemba Algorithm  →  100% accuracy, <20 moves
+<pre>
+🎯 Kociemba Algorithm  →  100% accuracy, &lt;20 moves
 📷 OpenCV Pipeline     →  4-phase color detection
 🎮 Three.js Engine     →  60fps 3D animations
 💾 Express Backend     →  Solve history + sync
-```
+</pre>
 
 <p align="center">
   <a href="https://github.com/DINESHYDK/rubiks-cube-solver">
@@ -93,12 +95,12 @@
   <img src="https://img.shields.io/badge/Supabase-0a0e17?style=flat-square&logo=supabase&logoColor=5CE0D8"/>
 </p>
 
-```text
+<pre>
 🧠 9-step AI Pipeline  →  classify, route, respond
 🔍 Vector Search       →  3072-dim, 0.85 threshold
 📊 SLA Engine          →  P1–P4 breach detection
 📬 IMAP Ingestion      →  50 emails/batch
-```
+</pre>
 
 <p align="center">
   <a href="https://github.com/DINESHYDK/IntelliDesk-AI">
@@ -125,12 +127,12 @@
   <img src="https://img.shields.io/badge/Python-0a0e17?style=flat-square&logo=python&logoColor=5CE0D8"/>
 </p>
 
-```text
+<pre>
 🗃️  8-table Schema      →  normalized with triggers
 ⚡  PL/pgSQL Functions  →  dynamic reference ranges
 🔗  5-table JOIN VIEW   →  severity-graded alerts
-🖥️  Dual Dashboards     →  Patient & Doctor views
-```
+🖥️  Dual Dashboards     →  Patient &amp; Doctor views
+</pre>
 
 <p align="center">
   <a href="https://github.com/DINESHYDK/medical-copilot-frontend">
@@ -155,12 +157,12 @@
   <img src="https://img.shields.io/badge/Vercel-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/>
 </p>
 
-```text
+<pre>
 💳 Stripe Integration  →  subscription management
 🎯 Score Tracking      →  Stableford monthly draws
 ❤️  Charity Engine     →  10%+ auto-allocation
 📱 Production App      →  deployed, real users
-```
+</pre>
 
 <p align="center">
   <a href="https://golf-charity-digitalheroes.vercel.app/">
@@ -210,7 +212,7 @@
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DINESHYDK&show_icons=true&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&icon_color=5CE0D8&text_color=c9d1d9&ring_color=5CE0D8&count_private=true&include_all_commits=true"/>
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=DINESHYDK&hide_border=true&background=0a0e17&stroke=1a2332&ring=5CE0D8&fire=5CE0D8&currStreakLabel=5CE0D8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e"/>
+  <img height="180em" src="https://streak-stats.demolab.com/?user=DINESHYDK&hide_border=true&background=0a0e17&stroke=1a2332&ring=5CE0D8&fire=5CE0D8&currStreakLabel=5CE0D8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e"/>
 </div>
 
 <div align="center">
@@ -273,7 +275,7 @@
   <br/>
   <samp>── &nbsp; TROPHIES &nbsp; ──</samp>
   <br/><br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=DINESHYDK&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=DINESHYDK&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="100%"/>
 </div>
 
 <br/>
@@ -285,8 +287,7 @@
   <br/>
   <samp>── &nbsp; CONTRIBUTION GRAPH &nbsp; ──</samp>
   <br/><br/>
-
-  [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DINESHYDK&theme=react-dark&hide_border=true&bg_color=0a0e17&color=5CE0D8&line=5CE0D8&point=c9d1d9&area=true&area_color=0d1921)](https://github.com/DINESHYDK)
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DINESHYDK&theme=react-dark&hide_border=true&bg_color=0a0e17&color=5CE0D8&line=5CE0D8&point=c9d1d9&area=true&area_color=0d1921" width="100%"/>
 </div>
 
 <!-- SNAKE ANIMATION -->
@@ -332,7 +333,7 @@
 <br/>
 
 ```javascript
-const arr =;[1][2][3]
+const arr = [1, 2, 3, 4, 5];
 const result = arr.reduce((acc, val) => {
   return val % 2 === 0 ? acc * val : acc + val;
 }, 0);
@@ -347,7 +348,7 @@ console.log(result);
   ║   0 + 1 (odd)  = 1   →   1 × 2 (even) = 2   →   2 + 3 (odd)  = 5        ║
   ║   5 × 4 (even) = 20  →   20 + 5 (odd) = 25                               ║
   ║                                                                            ║
-  ║   The trick: reduce starts at 0, not arr.                              ║
+  ║   The trick: reduce starts at 0, not arr[0].                              ║
   ║   If you got 72, you forgot the initial accumulator.                      ║
   ║                                                                            ║
   ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -391,9 +392,9 @@ console.log(result);
   ║  → Data integrity > schema flexibility      → Read-heavy + denormalized    ║
   ║                                                                            ║
   ║  In my projects:                                                           ║
-  ║  -  Medical Copilot  →  PostgreSQL   (8 related tables, triggers)          ║
-  ║  -  Rubik's Solver   →  MongoDB      (flexible solve history docs)         ║
-  ║  -  IntelliDesk      →  Supabase/PG  (SLA workflows need ACID)            ║
+  ║  •  Medical Copilot  →  PostgreSQL   (8 related tables, triggers)         ║
+  ║  •  Rubik's Solver   →  MongoDB      (flexible solve history docs)        ║
+  ║  •  IntelliDesk      →  Supabase/PG  (SLA workflows need ACID)           ║
   ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -417,3 +418,6 @@ console.log(result);
 
   <br/><br/>
 </div>
+
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5CE0D8,30:102a2d,60:0d1921,100:0a0e17&height=120&section=footer" width="100%"/>

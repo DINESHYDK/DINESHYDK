@@ -4,8 +4,6 @@
      style="max-width:100%">
 
   <defs>
-
-    <!-- Crawling border gradient — long fade-in / fade-out tail -->
     <linearGradient id="crawl" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#5CE0D8" stop-opacity="0"/>
       <stop offset="15%"  stop-color="#5CE0D8" stop-opacity="0.6"/>
@@ -14,8 +12,6 @@
       <stop offset="85%"  stop-color="#5CE0D8" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#5CE0D8" stop-opacity="0"/>
     </linearGradient>
-
-    <!-- Neon outer glow for the crawling line -->
     <filter id="neon" x="-20%" y="-200%" width="140%" height="500%">
       <feGaussianBlur stdDeviation="5" result="blur1"/>
       <feGaussianBlur stdDeviation="2" result="blur2"/>
@@ -25,8 +21,6 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <!-- Softer glow for ASCII text -->
     <filter id="textGlow" x="-5%" y="-30%" width="110%" height="160%">
       <feGaussianBlur stdDeviation="1.8" result="blur"/>
       <feMerge>
@@ -34,37 +28,21 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <!-- Subtle inner-edge ambient glow -->
-    <filter id="ambientGlow" x="-2%" y="-2%" width="104%" height="104%">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <!-- Background grid dot pattern -->
     <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="0.7" fill="#5CE0D8" opacity="0.06"/>
     </pattern>
-
   </defs>
 
-  <!-- ░░░ BACKGROUND ░░░ -->
+  <!-- BACKGROUND -->
   <rect width="900" height="340" rx="14" fill="#0d1117"/>
   <rect width="900" height="340" rx="14" fill="url(#grid)"/>
 
-  <!-- Faint inner ambient rim -->
-  <rect x="1" y="1" width="898" height="338" rx="13.5"
-        fill="none" stroke="#5CE0D8" stroke-width="35" stroke-opacity="0.03"
-        filter="url(#ambientGlow)"/>
-
-  <!-- ░░░ STATIC BASELINE BORDER ░░░ -->
+  <!-- STATIC BASELINE BORDER -->
   <rect x="3" y="3" width="894" height="334" rx="12"
         fill="none" stroke="#1e2a38" stroke-width="1.5"/>
 
-  <!-- ░░░ CRAWLING BORDER — perimeter = 2*(894+334) = 2456px ░░░
-       Visible dash = 900px (very long so it's always visible)
-       Gap = 2456 - 900 = 1556px
-  -->
+  <!-- CRAWLING BORDER — perimeter = 2*(894+334) = 2456px
+       Visible dash = 900px, Gap = 1556px -->
   <rect x="3" y="3" width="894" height="334" rx="12"
         fill="none"
         stroke="url(#crawl)"
@@ -79,7 +57,7 @@
              calcMode="linear"/>
   </rect>
 
-  <!-- Second layer — thinner, offset by half a perimeter, slower = depth -->
+  <!-- Second layer — thinner, offset -->
   <rect x="3" y="3" width="894" height="334" rx="12"
         fill="none"
         stroke="#5CE0D8"
@@ -94,20 +72,14 @@
              calcMode="linear"/>
   </rect>
 
-  <!-- ░░░ CORNER BRACKETS ░░░ -->
+  <!-- CORNER BRACKETS -->
   <g fill="none" stroke="#5CE0D8" stroke-width="2"
      stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
-    <!-- top-left -->
     <polyline points="3,30 3,3 30,3"/>
-    <!-- top-right -->
     <polyline points="870,3 897,3 897,30"/>
-    <!-- bottom-left -->
     <polyline points="3,310 3,337 30,337"/>
-    <!-- bottom-right -->
     <polyline points="870,337 897,337 897,310"/>
   </g>
-
-  <!-- Corner dots -->
   <g fill="#5CE0D8" opacity="0.7">
     <circle cx="3"   cy="3"   r="2.5"/>
     <circle cx="897" cy="3"   r="2.5"/>
@@ -115,17 +87,13 @@
     <circle cx="897" cy="337" r="2.5"/>
   </g>
 
-  <!-- ░░░ ASCII ART NAME ░░░
-       Font: Courier New 5.6px — 16 lines × 9px = 144px tall
-       Starts at y=22, ends at y=166
-  -->
+  <!-- ASCII ART NAME — 16 lines, font-size 5.6, line-height 9px -->
   <g font-family="'Courier New', Courier, monospace"
      font-size="5.6"
      fill="#5CE0D8"
      text-anchor="middle"
      xml:space="preserve"
      filter="url(#textGlow)">
-
     <text x="450" y="28"> DDDDDDDDDDDDD          iiii                                                       hhhhhhh                  YYYYYYY       YYYYYYYDDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK </text>
     <text x="450" y="37"> D::::::::::::DDD      i::::i                                                      h:::::h                  Y:::::Y       Y:::::YD::::::::::::DDD    K:::::::K    K:::::K </text>
     <text x="450" y="46"> D:::::::::::::::DD     iiii                                                       h:::::h                  Y:::::Y       Y:::::YD:::::::::::::::DD  K:::::::K    K:::::K </text>
@@ -142,18 +110,14 @@
     <text x="450" y="145"> D:::::::::::::::DD   i::::::i n::::n    n::::n e::::::::eeeeeeee  s::::::::::::::s h:::::h     h:::::h         YYYY:::::YYYY    D:::::::::::::::DD  K:::::::K    K:::::K </text>
     <text x="450" y="154"> D::::::::::::DDD     i::::::i n::::n    n::::n  ee:::::::::::::e   s:::::::::::ss  h:::::h     h:::::h         Y:::::::::::Y    D::::::::::::DDD    K:::::::K    K:::::K </text>
     <text x="450" y="163"> DDDDDDDDDDDDD        iiiiiiii nnnnnn    nnnnnn    eeeeeeeeeeeeee    sssssssssss    hhhhhhh     hhhhhhh         YYYYYYYYYYYYY    DDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK </text>
-
   </g>
 
-  <!-- ░░░ DIVIDER ░░░ -->
-  <line x1="60" y1="178" x2="840" y2="178"
-        stroke="#5CE0D8" stroke-width="0.6" opacity="0.2"/>
-
-  <!-- Thin accent lines flanking subtitle -->
+  <!-- DIVIDER -->
+  <line x1="60" y1="178" x2="840" y2="178" stroke="#5CE0D8" stroke-width="0.6" opacity="0.2"/>
   <line x1="60"  y1="178" x2="200" y2="178" stroke="#5CE0D8" stroke-width="1" opacity="0.5"/>
   <line x1="700" y1="178" x2="840" y2="178" stroke="#5CE0D8" stroke-width="1" opacity="0.5"/>
 
-  <!-- ░░░ SUBTITLE ░░░ -->
+  <!-- SUBTITLE -->
   <text x="450" y="202"
         font-family="'Courier New', Courier, monospace"
         font-size="12"
@@ -163,7 +127,7 @@
     FULL-STACK DEVELOPER  ·  IIT ISM DHANBAD  ·  COMPETITIVE PROGRAMMER
   </text>
 
-  <!-- ░░░ STACK ROW ░░░ -->
+  <!-- STACK ROW -->
   <text x="450" y="228"
         font-family="'Courier New', Courier, monospace"
         font-size="10.5"
@@ -174,21 +138,19 @@
     C++  ·  React  ·  Next.js  ·  Node.js  ·  PostgreSQL  ·  MongoDB  ·  Python
   </text>
 
-  <!-- ░░░ HORIZONTAL RULE ░░░ -->
-  <line x1="60" y1="250" x2="840" y2="250"
-        stroke="#1e2a38" stroke-width="1"/>
+  <!-- HORIZONTAL RULE -->
+  <line x1="60" y1="250" x2="840" y2="250" stroke="#1e2a38" stroke-width="1"/>
 
-  <!-- ░░░ LIVE STATUS ROW ░░░ -->
-
-  <!-- Pulsing dot -->
+  <!-- PULSING DOT -->
   <circle cx="220" cy="278" r="5" fill="#5CE0D8" opacity="0.2">
-    <animate attributeName="r"       values="5;9;5"   dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="r"       values="5;9;5"     dur="2.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.2;0;0.2" dur="2.2s" repeatCount="indefinite"/>
   </circle>
   <circle cx="220" cy="278" r="4.5" fill="#5CE0D8">
     <animate attributeName="opacity" values="1;0.5;1" dur="2.2s" repeatCount="indefinite"/>
   </circle>
 
+  <!-- STATUS TEXT -->
   <text x="236" y="283"
         font-family="'Courier New', Courier, monospace"
         font-size="11.5"
@@ -197,7 +159,7 @@
     Open to Summer 2026 Internship Opportunities
   </text>
 
-  <!-- Right-side scan blink -->
+  <!-- AVAILABLE TAG -->
   <text x="820" y="283"
         font-family="'Courier New', Courier, monospace"
         font-size="10"
@@ -208,8 +170,7 @@
     [ AVAILABLE ]
   </text>
 
-  <!-- Bottom scan line -->
-  <rect x="3" y="320" width="894" height="1.5" rx="0.5"
-        fill="#5CE0D8" opacity="0.07"/>
+  <!-- BOTTOM SCAN LINE -->
+  <rect x="3" y="320" width="894" height="1.5" rx="0.5" fill="#5CE0D8" opacity="0.07"/>
 
 </svg>
