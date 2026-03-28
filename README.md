@@ -3,7 +3,6 @@
 <!-- ══════════════════════════════════════════════════════════════════════════════ -->
 
 <!-- ════════ ANIMATED BORDER HEADER BANNER ════════ -->
-<!-- ════════ ANIMATED BORDER HEADER BANNER ════════ -->
 <div align="center">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" viewBox="0 0 1000 420">
@@ -350,12 +349,17 @@
   <br/>
   <samp>── &nbsp; GITHUB ANALYTICS &nbsp; ──</samp>
   <br/><br/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DINESHYDK&show_icons=true&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&icon_color=5CE0D8&text_color=c9d1d9&ring_color=5CE0D8&count_private=true&include_all_commits=true"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://streak-stats.demolab.com/?user=DINESHYDK&hide_border=true&background=0a0e17&stroke=1a2332&ring=5CE0D8&fire=5CE0D8&currStreakLabel=5CE0D8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e"/>
-  <br/><br/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DINESHYDK&layout=compact&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&text_color=c9d1d9&langs_count=8"/>
 </div>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DINESHYDK&show_icons=true&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&icon_color=5CE0D8&text_color=c9d1d9&ring_color=5CE0D8&count_private=true&include_all_commits=true" height="180"/>
+  &nbsp;&nbsp;
+  <img src="https://streak-stats.demolab.com/?user=DINESHYDK&hide_border=true&background=0a0e17&stroke=1a2332&ring=5CE0D8&fire=5CE0D8&currStreakLabel=5CE0D8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DINESHYDK&layout=compact&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&text_color=c9d1d9&langs_count=8" height="180"/>
+</p>
 
 <br/>
 
@@ -370,15 +374,34 @@
 
 <div align="center">
 
-```text
-  ╔══════════════════╦═══════════════════════╦══════════════════════════════════════════════╗
-  ║  Platform        ║  Rating               ║  Highlights                                 ║
-  ╠══════════════════╬═══════════════════════╬══════════════════════════════════════════════╣
-  ║  CodeChef        ║  ★★★  1652            ║  1500+ solved  ·  Diamond Streak            ║
-  ║  Codeforces      ║  Pupil  1254          ║  Targeting Expert rating                    ║
-  ║  LeetCode        ║  80+ solved           ║  Pattern-focused interview prep             ║
-  ╚══════════════════╩═══════════════════════╩══════════════════════════════════════════════╝
-```
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Platform</th>
+      <th align="center">Rating</th>
+      <th align="center">Highlights</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><samp><b>CodeChef</b></samp></td>
+      <td align="center"><samp>★★★ 1652</samp></td>
+      <td align="center"><samp>1500+ solved &nbsp;·&nbsp; Diamond Streak</samp></td>
+    </tr>
+    <tr>
+      <td align="center"><samp><b>Codeforces</b></samp></td>
+      <td align="center"><samp>Pupil 1254</samp></td>
+      <td align="center"><samp>Targeting Expert rating</samp></td>
+    </tr>
+    <tr>
+      <td align="center"><samp><b>LeetCode</b></samp></td>
+      <td align="center"><samp>80+ solved</samp></td>
+      <td align="center"><samp>Pattern-focused interview prep</samp></td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
 
 <samp>🏅 <b>AlgoUniversity Tech Fellowship 2025</b> — Top 8% Nationwide &nbsp;·&nbsp; 🎓 <b>Google Student Upskilling</b> — Advanced DSA</samp>
 
