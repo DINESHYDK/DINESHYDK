@@ -2,14 +2,157 @@
 <!--                  YETURI DINESH KRISHNA · GITHUB PROFILE README               -->
 <!-- ══════════════════════════════════════════════════════════════════════════════ -->
 
-<!-- HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,30:0d1921,60:102a2d,100:5CE0D8&height=180&section=header&text=&fontSize=1" width="100%" />
-
-<br/>
-
+<!-- ════════ ANIMATED BORDER HEADER BANNER ════════ -->
 <!-- ════════ ANIMATED BORDER HEADER BANNER ════════ -->
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Dinesh Krishna Yeturi — Full-Stack Developer"/>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" viewBox="0 0 1000 420">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .wrapper {
+          width: 980px;
+          height: 400px;
+          margin: 10px auto;
+          position: relative;
+          border-radius: 6px;
+          overflow: hidden;
+          background: #0a0e17;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0 0 15px rgba(92, 224, 216, 0.1);
+        }
+        
+        /* The spinning glowing gradient */
+        .wrapper::before {
+          content: "";
+          position: absolute;
+          width: 250%;
+          height: 250%;
+          background: conic-gradient(from 0deg, transparent 70%, #5CE0D8 85%, transparent 100%);
+          animation: spin 4s linear infinite;
+        }
+
+        /* The dark inner cutout to mask the center */
+        .wrapper::after {
+          content: "";
+          position: absolute;
+          inset: 2px; /* Controls border thickness */
+          background: #0a0e17;
+          border-radius: 4px;
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+
+        .banner {
+          position: relative;
+          z-index: 10;
+          font-family: 'Courier New', monospace;
+          color: #5CE0D8;
+          padding: 30px 50px;
+          width: 100%;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .ascii-art {
+          font-size: 8px;
+          line-height: 10px;
+          font-weight: bold;
+          text-shadow: 0 0 8px #5CE0D8, 0 0 2px #5CE0D8;
+          margin-bottom: 25px;
+          white-space: pre;
+          text-align: left;
+        }
+        .subtitle {
+          font-size: 0.85em;
+          letter-spacing: 4px;
+          color: #5CE0D8aa;
+          margin-bottom: 15px;
+          text-align: center;
+        }
+        .stack {
+          font-size: 0.8em;
+          letter-spacing: 3px;
+          color: #5CE0D877;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        .available {
+          font-size: 0.8em;
+          letter-spacing: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          padding: 0 20px;
+          box-sizing: border-box;
+        }
+        .dot { 
+          color: #00ff88; 
+          margin-right: 8px; 
+          text-shadow: 0 0 5px #00ff88;
+          animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.4; }
+        }
+
+        .tag {
+          border: 1px solid #5CE0D844;
+          padding: 3px 12px;
+          color: #5CE0D888;
+        }
+        .divider {
+          border: none;
+          border-top: 1px solid #5CE0D822;
+          margin: 15px 0;
+          width: 100%;
+        }
+      </style>
+      <div class="wrapper">
+        <div class="banner">
+          <div class="ascii-art">
+ DDDDDDDDDDDDD          iiii                                                      hhhhhhh                  YYYYYYY       YYYYYYYDDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK 
+ D::::::::::::DDD      i::::i                                                     h:::::h                  Y:::::Y       Y:::::YD::::::::::::DDD    K:::::::K    K:::::K 
+ D:::::::::::::::DD     iiii                                                      h:::::h                  Y:::::Y       Y:::::YD:::::::::::::::DD  K:::::::K    K:::::K 
+ DDD:::::DDDDD:::::D                                                              h:::::h                  Y::::::Y     Y::::::YDDD:::::DDDDD:::::D K:::::::K   K::::::K 
+   D:::::D    D:::::D iiiiiiinnnn  nnnnnnnn        eeeeeeeeeeee        ssssssssss   h::::h hhhhh           YYY:::::Y   Y:::::YYY  D:::::D    D:::::DKK::::::K  K:::::KKK 
+   D:::::D     D:::::Di:::::in:::nn::::::::nn    ee::::::::::::ee    ss::::::::::s  h::::hh:::::hhh            Y:::::Y Y:::::Y     D:::::D     D:::::D K:::::K K:::::K    
+   D:::::D     D:::::D i::::in::::::::::::::nn  e::::::eeeee:::::eess:::::::::::::s h::::::::::::::hh           Y:::::Y:::::Y      D:::::D     D:::::D K::::::K:::::K     
+   D:::::D     D:::::D i::::inn:::::::::::::::ne::::::e     e:::::es::::::ssss:::::sh:::::::hhh::::::h           Y:::::::::Y       D:::::D     D:::::D K:::::::::::K      
+   D:::::D     D:::::D i::::i  n:::::nnnn:::::ne:::::::eeeee::::::e s:::::s  ssssss h::::::h   h::::::h           Y:::::::Y        D:::::D     D:::::D K:::::::::::K      
+   D:::::D     D:::::D i::::i  n::::n    n::::ne:::::::::::::::::e    s::::::s      h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K::::::K:::::K     
+   D:::::D     D:::::D i::::i  n::::n    n::::ne::::::eeeeeeeeeee        s::::::s   h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K:::::K K:::::K    
+   D:::::D    D:::::D  i::::i  n::::n    n::::ne:::::::e           ssssss   s:::::s h:::::h     h:::::h            Y:::::Y         D:::::D    D:::::DKK::::::K  K:::::KKK 
+ DDD:::::DDDDD:::::D  i::::::i n::::n    n::::ne::::::::e          s:::::ssss::::::sh:::::h     h:::::h            Y:::::Y       DDD:::::DDDDD:::::D K:::::::K   K::::::K 
+ D:::::::::::::::DD   i::::::i n::::n    n::::n e::::::::eeeeeeee  s::::::::::::::s h:::::h     h:::::h         YYYY:::::YYYY    D:::::::::::::::DD  K:::::::K    K:::::K 
+ D::::::::::::DDD     i::::::i n::::n    n::::n  ee:::::::::::::e   s:::::::::::ss  h:::::h     h:::::h         Y:::::::::::Y    D::::::::::::DDD    K:::::::K    K:::::K 
+ DDDDDDDDDDDDD        iiiiiiii nnnnnn    nnnnnn    eeeeeeeeeeeeee    sssssssssss    hhhhhhh     hhhhhhh         YYYYYYYYYYYYY    DDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK
+          </div>
+          <hr class="divider"/>
+          <div class="subtitle">FULL-STACK DEVELOPER &nbsp;·&nbsp; IIT ISM DHANBAD &nbsp;·&nbsp; COMPETITIVE PROGRAMMER</div>
+          <div class="stack">C++ &nbsp;·&nbsp; React &nbsp;·&nbsp; Next.js &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; MongoDB &nbsp;·&nbsp; Python</div>
+          <hr class="divider"/>
+          <div class="available">
+            <span><span class="dot">●</span> Open to Summer 2026 Internship Opportunities</span>
+            <span class="tag">[ AVAILABLE ]</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
+
 </div>
 
 <br/>
@@ -53,10 +196,10 @@
   <br/><br/>
 </div>
 
-<table width="100%">
+<table align="center" width="100%">
 <tr>
 
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center">🧊 Rubik's Cube Solver</h3>
 <p align="center"><samp>Cross-platform solver with CV &amp; 3D visualization</samp></p>
@@ -68,7 +211,7 @@
   <img src="https://img.shields.io/badge/MongoDB-0a0e17?style=flat-square&logo=mongodb&logoColor=5CE0D8"/>
 </p>
 
-<pre>
+<pre align="center">
 🎯 Kociemba Algorithm  →  100% accuracy, &lt;20 moves
 📷 OpenCV Pipeline     →  4-phase color detection
 🎮 Three.js Engine     →  60fps 3D animations
@@ -83,7 +226,7 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center">🤖 IntelliDesk AI</h3>
 <p align="center"><samp>AI customer support — emails to tickets, automated</samp></p>
@@ -95,7 +238,7 @@
   <img src="https://img.shields.io/badge/Supabase-0a0e17?style=flat-square&logo=supabase&logoColor=5CE0D8"/>
 </p>
 
-<pre>
+<pre align="center">
 🧠 9-step AI Pipeline  →  classify, route, respond
 🔍 Vector Search       →  3072-dim, 0.85 threshold
 📊 SLA Engine          →  P1–P4 breach detection
@@ -115,7 +258,7 @@
 </tr>
 <tr>
 
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center">🏥 Medical Copilot</h3>
 <p align="center"><samp>Automated lab validation with clinical alerts</samp></p>
@@ -127,7 +270,7 @@
   <img src="https://img.shields.io/badge/Python-0a0e17?style=flat-square&logo=python&logoColor=5CE0D8"/>
 </p>
 
-<pre>
+<pre align="center">
 🗃️  8-table Schema      →  normalized with triggers
 ⚡  PL/pgSQL Functions  →  dynamic reference ranges
 🔗  5-table JOIN VIEW   →  severity-graded alerts
@@ -145,7 +288,7 @@
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 <h3 align="center">⛳ GolfGive</h3>
 <p align="center"><samp>Play golf, win prizes, change lives</samp></p>
@@ -157,7 +300,7 @@
   <img src="https://img.shields.io/badge/Vercel-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/>
 </p>
 
-<pre>
+<pre align="center">
 💳 Stripe Integration  →  subscription management
 🎯 Score Tracking      →  Stableford monthly draws
 ❤️  Charity Engine     →  10%+ auto-allocation
@@ -187,8 +330,8 @@
 
 <div align="center">
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Stack |
-|:---:|:---|
+| Category | Stack |
+|:---:|:---:|
 | <samp>**LANGUAGES**</samp> | ![C++](https://img.shields.io/badge/C++-0a0e17?style=flat-square&logo=cplusplus&logoColor=5CE0D8) ![TypeScript](https://img.shields.io/badge/TypeScript-0a0e17?style=flat-square&logo=typescript&logoColor=5CE0D8) ![JavaScript](https://img.shields.io/badge/JavaScript-0a0e17?style=flat-square&logo=javascript&logoColor=5CE0D8) ![Python](https://img.shields.io/badge/Python-0a0e17?style=flat-square&logo=python&logoColor=5CE0D8) ![SQL](https://img.shields.io/badge/SQL-0a0e17?style=flat-square&logo=postgresql&logoColor=5CE0D8) ![Java](https://img.shields.io/badge/Java-0a0e17?style=flat-square&logo=openjdk&logoColor=5CE0D8) |
 | <samp>**FRONTEND**</samp> | ![React](https://img.shields.io/badge/React-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8) ![Next.js](https://img.shields.io/badge/Next.js-0a0e17?style=flat-square&logo=nextdotjs&logoColor=5CE0D8) ![React Native](https://img.shields.io/badge/React_Native-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8) ![Tailwind](https://img.shields.io/badge/Tailwind-0a0e17?style=flat-square&logo=tailwindcss&logoColor=5CE0D8) ![Three.js](https://img.shields.io/badge/Three.js-0a0e17?style=flat-square&logo=threedotjs&logoColor=5CE0D8) |
 | <samp>**BACKEND**</samp> | ![Node.js](https://img.shields.io/badge/Node.js-0a0e17?style=flat-square&logo=nodedotjs&logoColor=5CE0D8) ![Express](https://img.shields.io/badge/Express-0a0e17?style=flat-square&logo=express&logoColor=5CE0D8) ![FastAPI](https://img.shields.io/badge/FastAPI-0a0e17?style=flat-square&logo=fastapi&logoColor=5CE0D8) ![Socket.io](https://img.shields.io/badge/Socket.io-0a0e17?style=flat-square&logo=socketdotio&logoColor=5CE0D8) |
@@ -207,16 +350,10 @@
   <br/>
   <samp>── &nbsp; GITHUB ANALYTICS &nbsp; ──</samp>
   <br/><br/>
-</div>
-
-<div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DINESHYDK&show_icons=true&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&icon_color=5CE0D8&text_color=c9d1d9&ring_color=5CE0D8&count_private=true&include_all_commits=true"/>
   &nbsp;&nbsp;
   <img height="180em" src="https://streak-stats.demolab.com/?user=DINESHYDK&hide_border=true&background=0a0e17&stroke=1a2332&ring=5CE0D8&fire=5CE0D8&currStreakLabel=5CE0D8&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e"/>
-</div>
-
-<div align="center">
-  <br/>
+  <br/><br/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DINESHYDK&layout=compact&hide_border=true&bg_color=0a0e17&title_color=5CE0D8&text_color=c9d1d9&langs_count=8"/>
 </div>
 
@@ -258,6 +395,8 @@
   <br/><br/>
 </div>
 
+<div align="center">
+
 ```text
   🔨  Building    →  Production apps with real users & real payments
   📚  Learning    →  System Design · Advanced DSA · Docker & CI/CD
@@ -265,6 +404,8 @@
   🏆  Competing   →  Pushing CodeChef & Codeforces ratings daily
   🔍  Looking for →  Summer 2026 Full-Stack Development Internship
 ```
+
+</div>
 
 <br/>
 
@@ -333,7 +474,7 @@
 <br/>
 
 ```javascript
-const arr = [1, 2, 3, 4, 5];
+const arr =;[1][2][3][4][5]
 const result = arr.reduce((acc, val) => {
   return val % 2 === 0 ? acc * val : acc + val;
 }, 0);
@@ -348,7 +489,7 @@ console.log(result);
   ║   0 + 1 (odd)  = 1   →   1 × 2 (even) = 2   →   2 + 3 (odd)  = 5        ║
   ║   5 × 4 (even) = 20  →   20 + 5 (odd) = 25                               ║
   ║                                                                            ║
-  ║   The trick: reduce starts at 0, not arr[0].                              ║
+  ║   The trick: reduce starts at 0, not arr.                              ║
   ║   If you got 72, you forgot the initial accumulator.                      ║
   ║                                                                            ║
   ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -392,9 +533,9 @@ console.log(result);
   ║  → Data integrity > schema flexibility      → Read-heavy + denormalized    ║
   ║                                                                            ║
   ║  In my projects:                                                           ║
-  ║  •  Medical Copilot  →  PostgreSQL   (8 related tables, triggers)         ║
-  ║  •  Rubik's Solver   →  MongoDB      (flexible solve history docs)        ║
-  ║  •  IntelliDesk      →  Supabase/PG  (SLA workflows need ACID)           ║
+  ║  -   Medical Copilot  →  PostgreSQL   (8 related tables, triggers)         ║
+  ║  -   Rubik's Solver   →  MongoDB      (flexible solve history docs)        ║
+  ║  -   IntelliDesk      →  Supabase/PG  (SLA workflows need ACID)           ║
   ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -418,6 +559,3 @@ console.log(result);
 
   <br/><br/>
 </div>
-
-<!-- FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5CE0D8,30:102a2d,60:0d1921,100:0a0e17&height=120&section=footer" width="100%"/>
