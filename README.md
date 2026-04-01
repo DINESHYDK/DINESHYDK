@@ -1,8 +1,7 @@
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
-<!--                  YETURI DINESH KRISHNA · GITHUB PROFILE README               -->
-<!-- ══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!--              YETURI DINESH KRISHNA · GITHUB PROFILE README             -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
 
-<!-- ════════ ANIMATED BORDER HEADER BANNER ════════ -->
 <div align="center">
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" viewBox="0 0 1000 420">
@@ -22,8 +21,6 @@
           align-items: center;
           box-shadow: 0 0 15px rgba(92, 224, 216, 0.1);
         }
-        
-        /* The spinning glowing gradient */
         .wrapper::before {
           content: "";
           position: absolute;
@@ -32,21 +29,17 @@
           background: conic-gradient(from 0deg, transparent 70%, #5CE0D8 85%, transparent 100%);
           animation: spin 4s linear infinite;
         }
-
-        /* The dark inner cutout to mask the center */
         .wrapper::after {
           content: "";
           position: absolute;
-          inset: 2px; /* Controls border thickness */
+          inset: 2px;
           background: #0a0e17;
           border-radius: 4px;
         }
-
         @keyframes spin {
           0% { transform: rotate(0deg); }
           100% { transform: rotate(360deg); }
         }
-
         .banner {
           position: relative;
           z-index: 10;
@@ -100,12 +93,10 @@
           text-shadow: 0 0 5px #00ff88;
           animation: pulse 2s infinite;
         }
-        
         @keyframes pulse {
           0%, 100% { opacity: 1; }
           50% { opacity: 0.4; }
         }
-
         .tag {
           border: 1px solid #5CE0D844;
           padding: 3px 12px;
@@ -121,21 +112,21 @@
       <div class="wrapper">
         <div class="banner">
           <div class="ascii-art">
- DDDDDDDDDDDDD          iiii                                                      hhhhhhh                  YYYYYYY       YYYYYYYDDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK 
- D::::::::::::DDD      i::::i                                                     h:::::h                  Y:::::Y       Y:::::YD::::::::::::DDD    K:::::::K    K:::::K 
- D:::::::::::::::DD     iiii                                                      h:::::h                  Y:::::Y       Y:::::YD:::::::::::::::DD  K:::::::K    K:::::K 
- DDD:::::DDDDD:::::D                                                              h:::::h                  Y::::::Y     Y::::::YDDD:::::DDDDD:::::D K:::::::K   K::::::K 
-   D:::::D    D:::::D iiiiiiinnnn  nnnnnnnn        eeeeeeeeeeee        ssssssssss   h::::h hhhhh           YYY:::::Y   Y:::::YYY  D:::::D    D:::::DKK::::::K  K:::::KKK 
-   D:::::D     D:::::Di:::::in:::nn::::::::nn    ee::::::::::::ee    ss::::::::::s  h::::hh:::::hhh            Y:::::Y Y:::::Y     D:::::D     D:::::D K:::::K K:::::K    
-   D:::::D     D:::::D i::::in::::::::::::::nn  e::::::eeeee:::::eess:::::::::::::s h::::::::::::::hh           Y:::::Y:::::Y      D:::::D     D:::::D K::::::K:::::K     
-   D:::::D     D:::::D i::::inn:::::::::::::::ne::::::e     e:::::es::::::ssss:::::sh:::::::hhh::::::h           Y:::::::::Y       D:::::D     D:::::D K:::::::::::K      
-   D:::::D     D:::::D i::::i  n:::::nnnn:::::ne:::::::eeeee::::::e s:::::s  ssssss h::::::h   h::::::h           Y:::::::Y        D:::::D     D:::::D K:::::::::::K      
-   D:::::D     D:::::D i::::i  n::::n    n::::ne:::::::::::::::::e    s::::::s      h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K::::::K:::::K     
-   D:::::D     D:::::D i::::i  n::::n    n::::ne::::::eeeeeeeeeee        s::::::s   h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K:::::K K:::::K    
-   D:::::D    D:::::D  i::::i  n::::n    n::::ne:::::::e           ssssss   s:::::s h:::::h     h:::::h            Y:::::Y         D:::::D    D:::::DKK::::::K  K:::::KKK 
- DDD:::::DDDDD:::::D  i::::::i n::::n    n::::ne::::::::e          s:::::ssss::::::sh:::::h     h:::::h            Y:::::Y       DDD:::::DDDDD:::::D K:::::::K   K::::::K 
- D:::::::::::::::DD   i::::::i n::::n    n::::n e::::::::eeeeeeee  s::::::::::::::s h:::::h     h:::::h         YYYY:::::YYYY    D:::::::::::::::DD  K:::::::K    K:::::K 
- D::::::::::::DDD     i::::::i n::::n    n::::n  ee:::::::::::::e   s:::::::::::ss  h:::::h     h:::::h         Y:::::::::::Y    D::::::::::::DDD    K:::::::K    K:::::K 
+ DDDDDDDDDDDDD          iiii                                                      hhhhhhh                  YYYYYYY       YYYYYYYDDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK
+ D::::::::::::DDD      i::::i                                                     h:::::h                  Y:::::Y       Y:::::YD::::::::::::DDD    K:::::::K    K:::::K
+ D:::::::::::::::DD     iiii                                                      h:::::h                  Y:::::Y       Y:::::YD:::::::::::::::DD  K:::::::K    K:::::K
+ DDD:::::DDDDD:::::D                                                              h:::::h                  Y::::::Y     Y::::::YDDD:::::DDDDD:::::D K:::::::K   K::::::K
+   D:::::D    D:::::D iiiiiiinnnn  nnnnnnnn        eeeeeeeeeeee        ssssssssss   h::::h hhhhh           YYY:::::Y   Y:::::YYY  D:::::D    D:::::DKK::::::K  K:::::KKK
+   D:::::D     D:::::Di:::::in:::nn::::::::nn    ee::::::::::::ee    ss::::::::::s  h::::hh:::::hhh            Y:::::Y Y:::::Y     D:::::D     D:::::D K:::::K K:::::K
+   D:::::D     D:::::D i::::in::::::::::::::nn  e::::::eeeee:::::eess:::::::::::::s h::::::::::::::hh           Y:::::Y:::::Y      D:::::D     D:::::D K::::::K:::::K
+   D:::::D     D:::::D i::::inn:::::::::::::::ne::::::e     e:::::es::::::ssss:::::sh:::::::hhh::::::h           Y:::::::::Y       D:::::D     D:::::D K:::::::::::K
+   D:::::D     D:::::D i::::i  n:::::nnnn:::::ne:::::::eeeee::::::e s:::::s  ssssss h::::::h   h::::::h           Y:::::::Y        D:::::D     D:::::D K:::::::::::K
+   D:::::D     D:::::D i::::i  n::::n    n::::ne:::::::::::::::::e    s::::::s      h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K::::::K:::::K
+   D:::::D     D:::::D i::::i  n::::n    n::::ne::::::eeeeeeeeeee        s::::::s   h:::::h     h:::::h            Y:::::Y         D:::::D     D:::::D K:::::K K:::::K
+   D:::::D    D:::::D  i::::i  n::::n    n::::ne:::::::e           ssssss   s:::::s h:::::h     h:::::h            Y:::::Y         D:::::D    D:::::DKK::::::K  K:::::KKK
+ DDD:::::DDDDD:::::D  i::::::i n::::n    n::::ne::::::::e          s:::::ssss::::::sh:::::h     h:::::h            Y:::::Y       DDD:::::DDDDD:::::D K:::::::K   K::::::K
+ D:::::::::::::::DD   i::::::i n::::n    n::::n e::::::::eeeeeeee  s::::::::::::::s h:::::h     h:::::h         YYYY:::::YYYY    D:::::::::::::::DD  K:::::::K    K:::::K
+ D::::::::::::DDD     i::::::i n::::n    n::::n  ee:::::::::::::e   s:::::::::::ss  h:::::h     h:::::h         Y:::::::::::Y    D::::::::::::DDD    K:::::::K    K:::::K
  DDDDDDDDDDDDD        iiiiiiii nnnnnn    nnnnnn    eeeeeeeeeeeeee    sssssssssss    hhhhhhh     hhhhhhh         YYYYYYYYYYYYY    DDDDDDDDDDDDD       KKKKKKKKK    KKKKKKK
           </div>
           <hr class="divider"/>
@@ -156,14 +147,12 @@
 
 <br/>
 
-<!-- ════════ TYPING TAGLINE ════════ -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1500&color=5CE0D8&center=true&vCenter=true&repeat=true&width=700&height=45&lines=Full-Stack+Developer+%C2%B7+IIT+ISM+Dhanbad;I+build+systems+that+solve+real+problems.;From+Rubik%27s+Cubes+to+AI+Pipelines+%E2%80%94+I+ship." alt="Typing SVG" />
 </div>
 
 <br/>
 
-<!-- ════════ SOCIAL BADGES ════════ -->
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0a0e17?style=for-the-badge&logo=vercel&logoColor=5CE0D8)](https://portfolio-lemon-sigma-ttzklk8yxq.vercel.app/)&nbsp;&nbsp;
@@ -177,7 +166,8 @@
 
 ---
 
-<!-- ════════ TERMINAL WHOAMI ════════ -->
+<!-- ════════ ABOUT ME — MAC TERMINAL ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; ABOUT ME &nbsp; ──</samp>
@@ -189,6 +179,7 @@
 ---
 
 <!-- ════════ FEATURED PROJECTS ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; FEATURED PROJECTS &nbsp; ──</samp>
@@ -197,119 +188,103 @@
 
 <table align="center" width="100%">
 <tr>
-
 <td width="50%" valign="top" align="center">
 
-<h3 align="center">🧊 Rubik's Cube Solver</h3>
-<p align="center"><samp>Cross-platform solver with CV &amp; 3D visualization</samp></p>
+<h3>🧊 Rubik's Cube Solver</h3>
+<p><samp>Cross-platform solver with CV &amp; 3D visualization</samp></p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/React_Native-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Three.js-0a0e17?style=flat-square&logo=threedotjs&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/OpenCV-0a0e17?style=flat-square&logo=opencv&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/MongoDB-0a0e17?style=flat-square&logo=mongodb&logoColor=5CE0D8"/>
 </p>
 
-<pre align="center">
-🎯 Kociemba Algorithm  →  100% accuracy, &lt;20 moves
-📷 OpenCV Pipeline     →  4-phase color detection
-🎮 Three.js Engine     →  60fps 3D animations
-💾 Express Backend     →  Solve history + sync
-</pre>
+```
+🎯 Kociemba Algorithm  → 100% accuracy, <20 moves
+📷 OpenCV Pipeline     → 4-phase color detection
+🎮 Three.js Engine     → 60fps 3D animations
+💾 Express Backend     → Solve history + sync
+```
 
-<p align="center">
-  <a href="https://github.com/DINESHYDK/rubiks-cube-solver">
-    <img src="https://img.shields.io/badge/Source_Code-0a0e17?style=flat-square&logo=github&logoColor=5CE0D8"/>
-  </a>
+<p>
+  <a href="https://github.com/DINESHYDK/rubiks-cube-solver"><img src="https://img.shields.io/badge/Source_Code-0a0e17?style=flat-square&logo=github&logoColor=5CE0D8"/></a>
 </p>
 
 </td>
-
 <td width="50%" valign="top" align="center">
 
-<h3 align="center">🤖 IntelliDesk AI</h3>
-<p align="center"><samp>AI customer support — emails to tickets, automated</samp></p>
+<h3>🤖 IntelliDesk AI</h3>
+<p><samp>AI customer support — emails to tickets, automated</samp></p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Next.js-0a0e17?style=flat-square&logo=nextdotjs&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Pinecone-0a0e17?style=flat-square&logo=pinecone&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Gemini-0a0e17?style=flat-square&logo=googlegemini&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Supabase-0a0e17?style=flat-square&logo=supabase&logoColor=5CE0D8"/>
 </p>
 
-<pre align="center">
-🧠 9-step AI Pipeline  →  classify, route, respond
-🔍 Vector Search       →  3072-dim, 0.85 threshold
-📊 SLA Engine          →  P1–P4 breach detection
-📬 IMAP Ingestion      →  50 emails/batch
-</pre>
+```
+🧠 9-step AI Pipeline  → classify, route, respond
+🔍 Vector Search       → 3072-dim, 0.85 threshold
+📊 SLA Engine          → P1–P4 breach detection
+📬 IMAP Ingestion      → 50 emails/batch
+```
 
-<p align="center">
-  <a href="https://github.com/DINESHYDK/IntelliDesk-AI">
-    <img src="https://img.shields.io/badge/Source_Code-0a0e17?style=flat-square&logo=github&logoColor=5CE0D8"/>
-  </a>&nbsp;
-  <a href="https://intellidesk-ten.vercel.app">
-    <img src="https://img.shields.io/badge/Live_Demo-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/>
-  </a>
+<p>
+  <a href="https://github.com/DINESHYDK/IntelliDesk-AI"><img src="https://img.shields.io/badge/Source_Code-0a0e17?style=flat-square&logo=github&logoColor=5CE0D8"/></a>&nbsp;
+  <a href="https://intellidesk-ten.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/></a>
 </p>
 
 </td>
 </tr>
 <tr>
-
 <td width="50%" valign="top" align="center">
 
-<h3 align="center">🏥 Medical Copilot</h3>
-<p align="center"><samp>Automated lab validation with clinical alerts</samp></p>
+<h3>🏥 Medical Copilot</h3>
+<p><samp>Automated lab validation with clinical alerts</samp></p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/PostgreSQL-0a0e17?style=flat-square&logo=postgresql&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/FastAPI-0a0e17?style=flat-square&logo=fastapi&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Streamlit-0a0e17?style=flat-square&logo=streamlit&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Python-0a0e17?style=flat-square&logo=python&logoColor=5CE0D8"/>
 </p>
 
-<pre align="center">
-🗃️  8-table Schema      →  normalized with triggers
-⚡  PL/pgSQL Functions  →  dynamic reference ranges
-🔗  5-table JOIN VIEW   →  severity-graded alerts
-🖥️  Dual Dashboards     →  Patient &amp; Doctor views
-</pre>
+```
+🗃️ 8-table Schema      → normalized with triggers
+⚡ PL/pgSQL Functions   → dynamic reference ranges
+🔗 5-table JOIN VIEW    → severity-graded alerts
+🖥️ Dual Dashboards     → Patient & Doctor views
+```
 
-<p align="center">
-  <a href="https://github.com/DINESHYDK/medical-copilot-frontend">
-    <img src="https://img.shields.io/badge/Source_Code-0a0e17?style=flat-square&logo=github&logoColor=5CE0D8"/>
-  </a>&nbsp;
-  <a href="https://module45-dbms-ism.streamlit.app/">
-    <img src="https://img.shields.io/badge/Live_Demo-0a0e17?style=flat-square&logo=streamlit&logoColor=5CE0D8"/>
-  </a>
+<p>
+  <a href="https://github.com/DINESHYDK/medical-copilot-frontend"><img src="https://img.shields.io/badge/Source_Code-0a0e17?style=flat-square&logo=github&logoColor=5CE0D8"/></a>&nbsp;
+  <a href="https://module45-dbms-ism.streamlit.app/"><img src="https://img.shields.io/badge/Live_Demo-0a0e17?style=flat-square&logo=streamlit&logoColor=5CE0D8"/></a>
 </p>
 
 </td>
-
 <td width="50%" valign="top" align="center">
 
-<h3 align="center">⛳ GolfGive</h3>
-<p align="center"><samp>Play golf, win prizes, change lives</samp></p>
+<h3>⛳ GolfGive</h3>
+<p><samp>Play golf, win prizes, change lives</samp></p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Next.js-0a0e17?style=flat-square&logo=nextdotjs&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Stripe-0a0e17?style=flat-square&logo=stripe&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Tailwind-0a0e17?style=flat-square&logo=tailwindcss&logoColor=5CE0D8"/>
   <img src="https://img.shields.io/badge/Vercel-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/>
 </p>
 
-<pre align="center">
-💳 Stripe Integration  →  subscription management
-🎯 Score Tracking      →  Stableford monthly draws
-❤️  Charity Engine     →  10%+ auto-allocation
-📱 Production App      →  deployed, real users
-</pre>
+```
+💳 Stripe Integration  → subscription management
+🎯 Score Tracking      → Stableford monthly draws
+❤️ Charity Engine      → 10%+ auto-allocation
+📱 Production App      → deployed, real users
+```
 
-<p align="center">
-  <a href="https://golf-charity-digitalheroes.vercel.app/">
-    <img src="https://img.shields.io/badge/Live_Site-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/>
-  </a>
+<p>
+  <a href="https://golf-charity-digitalheroes.vercel.app/"><img src="https://img.shields.io/badge/Live_Site-0a0e17?style=flat-square&logo=vercel&logoColor=5CE0D8"/></a>
 </p>
 
 </td>
@@ -321,6 +296,7 @@
 ---
 
 <!-- ════════ TECH ARSENAL ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; TECH ARSENAL &nbsp; ──</samp>
@@ -330,9 +306,9 @@
 <div align="center">
 
 | Category | Stack |
-|:---:|:---:|
+|:---:|:---|
 | <samp>**LANGUAGES**</samp> | ![C++](https://img.shields.io/badge/C++-0a0e17?style=flat-square&logo=cplusplus&logoColor=5CE0D8) ![TypeScript](https://img.shields.io/badge/TypeScript-0a0e17?style=flat-square&logo=typescript&logoColor=5CE0D8) ![JavaScript](https://img.shields.io/badge/JavaScript-0a0e17?style=flat-square&logo=javascript&logoColor=5CE0D8) ![Python](https://img.shields.io/badge/Python-0a0e17?style=flat-square&logo=python&logoColor=5CE0D8) ![SQL](https://img.shields.io/badge/SQL-0a0e17?style=flat-square&logo=postgresql&logoColor=5CE0D8) ![Java](https://img.shields.io/badge/Java-0a0e17?style=flat-square&logo=openjdk&logoColor=5CE0D8) |
-| <samp>**FRONTEND**</samp> | ![React](https://img.shields.io/badge/React-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8) ![Next.js](https://img.shields.io/badge/Next.js-0a0e17?style=flat-square&logo=nextdotjs&logoColor=5CE0D8) ![React Native](https://img.shields.io/badge/React_Native-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8) ![Tailwind](https://img.shields.io/badge/Tailwind-0a0e17?style=flat-square&logo=tailwindcss&logoColor=5CE0D8) ![Three.js](https://img.shields.io/badge/Three.js-0a0e17?style=flat-square&logo=threedotjs&logoColor=5CE0D8) |
+| <samp>**FRONTEND**</samp> | ![React](https://img.shields.io/badge/React-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8) ![Next.js](https://img.shields.io/badge/Next.js-0a0e17?style=flat-square&logo=nextdotjs&logoColor=5CE0D8) ![React Native](https://img.shields.io/badge/React_Native-0a0e17?style=flat-square&logo=react&logoColor=5CE0D8) ![HTML5](https://img.shields.io/badge/HTML5-0a0e17?style=flat-square&logo=html5&logoColor=5CE0D8) ![CSS3](https://img.shields.io/badge/CSS3-0a0e17?style=flat-square&logo=css3&logoColor=5CE0D8) ![Tailwind](https://img.shields.io/badge/Tailwind-0a0e17?style=flat-square&logo=tailwindcss&logoColor=5CE0D8) ![Three.js](https://img.shields.io/badge/Three.js-0a0e17?style=flat-square&logo=threedotjs&logoColor=5CE0D8) |
 | <samp>**BACKEND**</samp> | ![Node.js](https://img.shields.io/badge/Node.js-0a0e17?style=flat-square&logo=nodedotjs&logoColor=5CE0D8) ![Express](https://img.shields.io/badge/Express-0a0e17?style=flat-square&logo=express&logoColor=5CE0D8) ![FastAPI](https://img.shields.io/badge/FastAPI-0a0e17?style=flat-square&logo=fastapi&logoColor=5CE0D8) ![Socket.io](https://img.shields.io/badge/Socket.io-0a0e17?style=flat-square&logo=socketdotio&logoColor=5CE0D8) |
 | <samp>**DATABASES**</samp> | ![MongoDB](https://img.shields.io/badge/MongoDB-0a0e17?style=flat-square&logo=mongodb&logoColor=5CE0D8) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0e17?style=flat-square&logo=postgresql&logoColor=5CE0D8) ![Redis](https://img.shields.io/badge/Redis-0a0e17?style=flat-square&logo=redis&logoColor=5CE0D8) ![Supabase](https://img.shields.io/badge/Supabase-0a0e17?style=flat-square&logo=supabase&logoColor=5CE0D8) ![Pinecone](https://img.shields.io/badge/Pinecone-0a0e17?style=flat-square&logo=pinecone&logoColor=5CE0D8) |
 | <samp>**AI & VISION**</samp> | ![Gemini](https://img.shields.io/badge/Gemini_API-0a0e17?style=flat-square&logo=googlegemini&logoColor=5CE0D8) ![OpenCV](https://img.shields.io/badge/OpenCV-0a0e17?style=flat-square&logo=opencv&logoColor=5CE0D8) ![Vector Search](https://img.shields.io/badge/Vector_Search-0a0e17?style=flat-square&logo=elasticsearch&logoColor=5CE0D8) |
@@ -345,6 +321,7 @@
 ---
 
 <!-- ════════ GITHUB ANALYTICS ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; GITHUB ANALYTICS &nbsp; ──</samp>
@@ -366,6 +343,7 @@
 ---
 
 <!-- ════════ COMPETITIVE PROGRAMMING ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; COMPETITIVE PROGRAMMING &nbsp; ──</samp>
@@ -374,7 +352,7 @@
 
 <div align="center">
 
-<table align="center">
+<table>
   <thead>
     <tr>
       <th align="center">Platform</th>
@@ -386,7 +364,7 @@
     <tr>
       <td align="center"><samp><b>CodeChef</b></samp></td>
       <td align="center"><samp>★★★ 1652</samp></td>
-      <td align="center"><samp>1500+ solved &nbsp;·&nbsp; Diamond Streak</samp></td>
+      <td align="center"><samp>1500+ solved · Diamond Streak</samp></td>
     </tr>
     <tr>
       <td align="center"><samp><b>Codeforces</b></samp></td>
@@ -412,13 +390,12 @@
 ---
 
 <!-- ════════ CURRENT STATUS ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; CURRENT STATUS &nbsp; ──</samp>
   <br/><br/>
 </div>
-
-<div align="center">
 
 ```text
   🔨  Building    →  Production apps with real users & real payments
@@ -428,18 +405,19 @@
   🔍  Looking for →  Summer 2026 Full-Stack Development Internship
 ```
 
-</div>
-
 <br/>
 
 ---
 
 <!-- ════════ TROPHIES ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; TROPHIES &nbsp; ──</samp>
   <br/><br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=DINESHYDK&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="100%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=DINESHYDK&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" />
+
 </div>
 
 <br/>
@@ -447,121 +425,140 @@
 ---
 
 <!-- ════════ CONTRIBUTION GRAPH ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; CONTRIBUTION GRAPH &nbsp; ──</samp>
   <br/><br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DINESHYDK&theme=react-dark&hide_border=true&bg_color=0a0e17&color=5CE0D8&line=5CE0D8&point=c9d1d9&area=true&area_color=0d1921" width="100%"/>
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DINESHYDK&theme=react-dark&hide_border=true&bg_color=0a0e17&color=5CE0D8&line=5CE0D8&point=c9d1d9&area=true&area_color=0d1921)](https://github.com/DINESHYDK)
+
 </div>
 
-<!-- SNAKE ANIMATION -->
+<br/>
+
+<!-- SNAKE ANIMATION (set up GitHub Action to generate this) -->
 <div align="center">
-  <br/>
-  <img src="https://raw.githubusercontent.com/DINESHYDK/DINESHYDK/output/github-snake-dark.svg" alt="Snake animation" width="100%"/>
-  <br/>
+
+<img src="https://raw.githubusercontent.com/DINESHYDK/DINESHYDK/output/github-snake-dark.svg" alt="Snake animation" />
+
 </div>
 
 <br/>
 
 ---
 
-<!-- ════════ CHALLENGE ZONE ════════ -->
+<!-- ════════ 🧩 CHALLENGE ZONE ════════ -->
+
 <div align="center">
   <br/>
   <samp>── &nbsp; 🧩 CHALLENGE ZONE &nbsp; ──</samp>
   <br/>
-  <samp>Think you know your stuff? Try these.</samp>
+  <samp>Think you know your stuff? Click to test yourself.</samp>
   <br/><br/>
 </div>
 
 <details>
-<summary>&nbsp; 🧊 &nbsp;<b>Rubik's Challenge:</b> &nbsp; A standard 3×3 Rubik's Cube has how many possible permutations? &nbsp;<samp>(click to reveal)</samp></summary>
+<summary>&nbsp; 🧊 &nbsp; <b>Rubik's Challenge:</b> &nbsp; A standard 3×3 Rubik's Cube has how many possible permutations? &nbsp; <samp>(click to reveal)</samp></summary>
 <br/>
+<div align="center">
 
-```text
-  ╔══════════════════════════════════════════════════════════════════════════════╗
-  ║                                                                            ║
-  ║   43,252,003,274,489,856,000                                               ║
-  ║                                                                            ║
-  ║   That's ~43.25 quintillion states.                                        ║
-  ║   Yet God's Number is just 20 — any state solved in 20 moves or fewer.    ║
-  ║   My solver uses the Kociemba Two-Phase Algorithm to get there in <100ms.  ║
-  ║                                                                            ║
-  ╚══════════════════════════════════════════════════════════════════════════════╝
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   43,252,003,274,489,856,000                                               ║
+║                                                                            ║
+║   That's ~43.25 quintillion states.                                        ║
+║   Yet God's Number is just 20 — any state solved in 20 moves or fewer.     ║
+║   My solver uses the Kociemba Two-Phase Algorithm to get there in <100ms.  ║
+║                                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+</div>
 </details>
 
 <details>
-<summary>&nbsp; 🧠 &nbsp;<b>Code Challenge:</b> &nbsp; What does this print? &nbsp;<samp>(click to reveal)</samp></summary>
+<summary>&nbsp; 🧠 &nbsp; <b>Code Challenge:</b> &nbsp; What does this print? &nbsp; <samp>(click to reveal)</samp></summary>
 <br/>
 
 ```javascript
-const arr =;[1][2][3][4][5]
+const arr = [1, 2, 3, 4, 5];
 const result = arr.reduce((acc, val) => {
-  return val % 2 === 0 ? acc * val : acc + val;
+    return val % 2 === 0 ? acc * val : acc + val;
 }, 0);
 console.log(result);
 ```
 
-```text
-  ╔══════════════════════════════════════════════════════════════════════════════╗
-  ║                                                                            ║
-  ║   ✅ Answer: 25                                                            ║
-  ║                                                                            ║
-  ║   0 + 1 (odd)  = 1   →   1 × 2 (even) = 2   →   2 + 3 (odd)  = 5        ║
-  ║   5 × 4 (even) = 20  →   20 + 5 (odd) = 25                               ║
-  ║                                                                            ║
-  ║   The trick: reduce starts at 0, not arr.                              ║
-  ║   If you got 72, you forgot the initial accumulator.                      ║
-  ║                                                                            ║
-  ╚══════════════════════════════════════════════════════════════════════════════╝
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   ✅ Answer: 25                                                            ║
+║                                                                            ║
+║   0 + 1 (odd)  = 1   →   1 × 2 (even) = 2   →   2 + 3 (odd)  = 5        ║
+║   5 × 4 (even) = 20  →   20 + 5 (odd) = 25                               ║
+║                                                                            ║
+║   The trick: reduce starts at 0, not arr[0].                               ║
+║   If you got 72, you forgot the initial accumulator.                       ║
+║                                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+</div>
 </details>
 
 <details>
-<summary>&nbsp; ⚡ &nbsp;<b>System Design:</b> &nbsp; You're building a chat app. WebSockets or Long Polling? &nbsp;<samp>(click to reveal)</samp></summary>
+<summary>&nbsp; ⚡ &nbsp; <b>System Design:</b> &nbsp; You're building a chat app. WebSockets or Long Polling? &nbsp; <samp>(click to reveal)</samp></summary>
 <br/>
+<div align="center">
 
-```text
-  ╔══════════════════════════════════════════════════════════════════════════════╗
-  ║  WebSockets — and here's why:                                              ║
-  ║                                                                            ║
-  ║  Long Polling:  Client → Server → Wait → Response → Reconnect             ║
-  ║                 New HTTP connection per cycle · Latency: 50–200ms          ║
-  ║                                                                            ║
-  ║  WebSockets:    Client ↔ Server  (persistent TCP)                         ║
-  ║                 Single handshake, lightweight frames · Latency: <10ms     ║
-  ║                                                                            ║
-  ║  For real-time chat you need:                                             ║
-  ║  ✓ Bi-directional   ✓ Low latency   ✓ Server push                        ║
-  ║                                                                            ║
-  ║  I used Socket.io + Redis pub/sub in my projects for exactly this.        ║
-  ╚══════════════════════════════════════════════════════════════════════════════╝
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   WebSockets — and here's why:                                             ║
+║                                                                            ║
+║   Long Polling:  Client → Server → Wait → Response → Reconnect            ║
+║                  New HTTP connection per cycle · Latency: 50–200ms         ║
+║                                                                            ║
+║   WebSockets:    Client ↔ Server  (persistent TCP)                         ║
+║                  Single handshake, lightweight frames · Latency: <10ms     ║
+║                                                                            ║
+║   For real-time chat you need:                                             ║
+║   ✓ Bi-directional   ✓ Low latency   ✓ Server push                        ║
+║                                                                            ║
+║   I used Socket.io + Redis pub/sub in my projects for exactly this.        ║
+║                                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+</div>
 </details>
 
 <details>
-<summary>&nbsp; 🗃️ &nbsp;<b>DB Challenge:</b> &nbsp; When would you pick PostgreSQL over MongoDB? &nbsp;<samp>(click to reveal)</samp></summary>
+<summary>&nbsp; 🗃️ &nbsp; <b>DB Challenge:</b> &nbsp; When would you pick PostgreSQL over MongoDB? &nbsp; <samp>(click to reveal)</samp></summary>
 <br/>
+<div align="center">
 
-```text
-  ╔══════════════════════════════════════════════════════════════════════════════╗
-  ║  PostgreSQL when:                           MongoDB when:                  ║
-  ║  → Complex relationships & joins            → Schema evolves rapidly       ║
-  ║  → ACID compliance is non-negotiable        → Nested/hierarchical data     ║
-  ║  → Triggers, stored procs, views            → Horizontal scaling priority  ║
-  ║  → Data integrity > schema flexibility      → Read-heavy + denormalized    ║
-  ║                                                                            ║
-  ║  In my projects:                                                           ║
-  ║  -   Medical Copilot  →  PostgreSQL   (8 related tables, triggers)         ║
-  ║  -   Rubik's Solver   →  MongoDB      (flexible solve history docs)        ║
-  ║  -   IntelliDesk      →  Supabase/PG  (SLA workflows need ACID)           ║
-  ╚══════════════════════════════════════════════════════════════════════════════╝
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   PostgreSQL when:                           MongoDB when:                 ║
+║   → Complex relationships & joins            → Schema evolves rapidly      ║
+║   → ACID compliance is non-negotiable        → Nested/hierarchical data    ║
+║   → Triggers, stored procs, views            → Horizontal scaling priority ║
+║   → Data integrity > schema flexibility      → Read-heavy + denormalized   ║
+║                                                                            ║
+║   In my projects:                                                          ║
+║   • Medical Copilot  →  PostgreSQL  (8 related tables, triggers)           ║
+║   • Rubik's Solver   →  MongoDB     (flexible solve history docs)          ║
+║   • IntelliDesk      →  Supabase/PG (SLA workflows need ACID)             ║
+║                                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+</div>
 </details>
 
 <br/>
@@ -569,16 +566,21 @@ console.log(result);
 ---
 
 <!-- ════════ FOOTER ════════ -->
+
 <div align="center">
-  <br/>
-  <samp>Open to collaborations, open-source contributions, and internship opportunities.</samp>
-  <br/><br/>
 
-  *"First, solve the problem. Then, write the code."*
+<br/>
 
-  <br/><br/>
+<samp>Open to collaborations, open-source contributions, and internship opportunities.</samp>
 
-  <img src="https://komarev.com/ghpvc/?username=DINESHYDK&color=5CE0D8&style=flat-square&label=Profile+Views"/>
+<br/><br/>
 
-  <br/><br/>
+*"First, solve the problem. Then, write the code."*
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=DINESHYDK&color=5CE0D8&style=flat-square&label=Profile+Views" />
+
+<br/><br/>
+
 </div>
